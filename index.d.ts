@@ -5,6 +5,6 @@
 *
 */
 
-declare module 'json-beautify' {
+declare module '@flickering/json-beautify' {
   export default function beautify (value: any, space?: number | string, replacer?: Function | object | any[] | null, limit?: number): string
 }
