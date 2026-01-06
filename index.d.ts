@@ -6,5 +6,5 @@
 */
 
 declare module 'json-beautify' {
-  export default function beautify (value: any, replacer: Function | object | any[] | null, space: number | string, limit?: number): string
+  export default function beautify (value: any, space?: number | string, replacer?: Function | object | any[] | null, limit?: number): string
 }

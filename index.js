@@ -180,7 +180,7 @@ function str(key, holder, limit) {
 }
 
 
-function beautify (value, replacer, space, limit) {
+function beautify (value, space = 2, replacer, limit) {
 
 // The stringify method takes a value and an optional replacer, and an optional
 // space parameter, and returns a JSON text. The replacer can be a function
